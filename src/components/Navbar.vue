@@ -17,7 +17,6 @@
         <v-icon>fas fa-power-off</v-icon>
       </v-btn>
     </v-toolbar>
-
     <v-navigation-drawer class="three" v-model="drawer" app>
       <v-layout column align-center mt-2>
         <v-flex>
