@@ -25,7 +25,7 @@
     </v-card-text>
 
     <v-card-text>
-      <div class="display-1 font-weight-thin">Cortes por dia</div>
+      <div class="display-1 font-weight-thin">Detalles de Atencion</div>
     </v-card-text>
 
     <v-divider></v-divider>
@@ -42,12 +42,12 @@ import { mapState } from "vuex";
     data: () => ({
       value: [
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        3,
+        7,
+        2,
+        6,
+        7,
+        3,
       ],
     }),
     computed: {

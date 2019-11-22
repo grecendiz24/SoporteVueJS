@@ -33,6 +33,12 @@ const router = new Router({
       meta: {requiresAuth: true}
     },
     {
+      path: '/soporte',
+      name: 'soporte',
+      component: () => import(/* webpackChunkName: "about" */ './views/Soporte.vue'),
+      meta: {requiresAuth: true}
+    },
+    {
       path: '/chofer',
       name: 'chofer',
       component: () => import(/* webpackChunkName: "about" */ './views/Chofer.vue'),
